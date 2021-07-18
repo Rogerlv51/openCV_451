@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="4hours_chapter3.cpp">
+    <ClCompile Include="4hours_chapter6.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
