@@ -1,4 +1,4 @@
-#include <opencv2/imgcodecs.hpp>
+ #include <opencv2/imgcodecs.hpp>
 #include <iostream>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -7,14 +7,13 @@ using namespace cv;
 using namespace std;
 
 
-/*   ////     导入图片输出      ////
+   ////     导入图片输出      ////
 void main() {
 	string path = "Resources/test.png";
 	Mat img = imread(path);
 	imshow("image", img);
 	waitKey(0); //延迟无限长时间
 }
-*/
 
 
 

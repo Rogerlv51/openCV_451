@@ -16,10 +16,11 @@ void main() {
 	int hmin = 0, smin = 110, vmin = 153;
 	int hmax = 19, smax = 240, vmax = 255;
 
-	// HSV颜色模型，色调（H），饱和度（S），透明度（V）
+	// HSV颜色模型，色调（H），饱和度（S），透明度（亮度）（V）
 	cvtColor(img, imgHSV, COLOR_BGR2HSV);
 	// 建立一个滑动轨迹窗，可以更好地筛选出自己想要的颜色区域
 	namedWindow("Trackbars", (200, 200));
+	// 第四个参数表示导航条可调节的最大范围
 	createTrackbar("Hue Min", "Trackbars", &hmin, 179);
 	createTrackbar("Hue Max", "Trackbars", &hmax, 179);
 	createTrackbar("Sat Min", "Trackbars", &smin, 255);
